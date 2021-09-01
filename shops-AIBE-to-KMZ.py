@@ -27,7 +27,7 @@ def scrape_Aibe():
     return all_Aibe_shops
     
 
-result_path = (input("Paste path to folder. Result KML will be saved there: ") or "D:\\TEMP")
+result_path = (input("Paste path to folder. Result KML will be saved there: ") or "D:\\TMP")
 print("Selected result folder: " + result_path)
 result_path = (result_path + '\\').replace('\\\\','\\')
 
