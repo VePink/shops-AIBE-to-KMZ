@@ -46,7 +46,7 @@ import datetime
 end_timestamp = str(datetime.datetime.now().strftime("%Y%m%d_%H-%M"))
 
 from POIs.functions import save_as_KMZ
-save_as_KMZ(all_Aibe_shops, result_path, result_filename_prefix, end_timestamp)
+save_as_KMZ(all_Aibe_shops, result_path, result_filename_prefix, './Input/Aibe.png', end_timestamp)
 
 from POIs.functions import save_as_ZIP
 save_as_ZIP(result_path, result_filename_prefix, end_timestamp)
